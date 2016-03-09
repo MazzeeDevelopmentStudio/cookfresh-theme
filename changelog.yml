@@ -1,0 +1,8 @@
+url: https://github.com/MazzeeDevelopmentStudio/cookfresh-theme
+versions:
+    "0.5.0":
+        added:
+            - Changelog file
+    "0.0.1":
+        changed:
+            - Initial Build

@@ -1,0 +1,20 @@
+{
+  "name": "CookFresh Theme",
+  "version": "0.5.0",
+  "description": "CookFresh Theme",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "/resources/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.1",
+    "bootstrap": "~3.3.2",
+    "font-awesome": "~4.3.0",
+    "prism": "*"
+  }
+}

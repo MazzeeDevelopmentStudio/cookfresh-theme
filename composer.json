@@ -1,0 +1,29 @@
+{
+  "name": "MazzeeDevelopmentStudio/cookfresh-theme",
+  "type": "mazzee-theme",
+  "description": "CookFresh Theme",
+  "keywords": [
+    "CookFresh"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Hamson",
+      "email": "michael@mazzee.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "~1.0"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php artisan stylist:publish"
+    ],
+    "post-update-cmd": [
+      "php artisan stylist:publish"
+    ]
+  },
+  "minimum-stability": "dev"
+}
